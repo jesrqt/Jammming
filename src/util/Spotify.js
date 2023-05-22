@@ -39,7 +39,7 @@ const Spotify = {
     } else {
       let state = generateRandomString(16);
       localStorage.setItem('stateKey', state);
-      const accessUrl = `https://accounts.spotify.com/authorize?client_id=${REACT_APP_SPOTIFY_KEY}&response_type=token&scope=playlist-modify-public&redirect_uri=${redirectUri}&state=${state}`;
+      const accessUrl = `https://accounts.spotify.com/authorize?client_id=${process.env.REACT_APP_SPOTIFY_KEY}&response_type=token&scope=playlist-modify-public&redirect_uri=${redirectUri}&state=${state}`;
       window.location = accessUrl;
     }
   },
