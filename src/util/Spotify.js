@@ -1,4 +1,4 @@
-const redirectUri = 'https://tourmaline-crumble-d24e10.netlify.app/';
+const redirectUri = 'https://tourmaline-crumble-d24e10.netlify.app';
 
 //Generate state, used to get access token securely (prevent cross site request forgery)
 const generateRandomString = (number) => {
