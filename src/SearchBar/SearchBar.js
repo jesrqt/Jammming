@@ -17,7 +17,7 @@ export const SearchBar = (props) => {
   return (
     <div className="SearchBar">
       <form className="SearchForm" onSubmit={handleSubmit}>
-        <label>Search Songs Here:</label>
+        <label>Search songs here:</label>
         <input
           type="text"
           value={term}
