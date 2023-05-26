@@ -52,6 +52,12 @@ Jammming uses many technologies for it to work:
 
 ## Special thanks to Codecademy
 
-This project was possible thanks to the guidance provided by Codecademy course
+This project was possible thanks to the guidance provided by Codecademy course.\
+Codecademy provided me with detailed step-by-step guidance on how to develop this app.\
+Its community forum also provided me with many useful tips and examples of codes to try on for this app.\
+I highlight below the challenges that I faced and how I overcame them.
+
+## Challenges of the project and What I learnt
+
 
 ## How to install and run Jammming
