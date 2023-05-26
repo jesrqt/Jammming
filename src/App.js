@@ -20,9 +20,10 @@ export const App = () => {
   }
 
   const removeTrack = (track) => {
-    let tracks = playlistTracks;
-    tracks.filter(currentTrack => currentTrack.id !== track.id);
-    setPlaylistTracks(tracks);
+    setPlaylistTracks(prev => {
+      const filteredTracks = prev.filter(prevTrack => prevTrack.id !== track.id);
+      return filteredTracks;
+    })
   }
 
   const updatePlaylistName = (name) => {
@@ -46,12 +47,12 @@ export const App = () => {
       <h1>Ja<span className="highlight">mmm</span>ing</h1>
       <div className="App">
         <SearchBar
+          playlistName={playlistName}
           onSearch={search} />
         <div className="App-playlist">
           <SearchResults
             searchResults={searchResults} 
-            onAdd={addTrack} 
-            onRemove={removeTrack}/>
+            onAdd={addTrack} />
           <Playlist
             playlistName={playlistName} 
             playlistTracks={playlistTracks}
