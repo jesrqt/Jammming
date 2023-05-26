@@ -26,6 +26,7 @@ I am currently learning HTML, CSS, JavaScript, and React to become a front-end d
 ## How does Jammming work?
 This app lets users connect to their own Spotify accounts, search songs, and create music playlists.
 Here is the video walkthrough of how Jammming works:
+https://github.com/jesrqt/Jammming/assets/118378954/18aacd0f-606a-48de-8d76-8d76a59f99a0
 
 Here is the description of how Jammming works: 
 
@@ -35,6 +36,9 @@ Here is the description of how Jammming works:
 4. 20 songs will be shown under "Results". If you have songs that you would like to add to your playlist, click on plus icons. The added songs will be displayed in the panel named "My Playlist".
 5. Change "My Playlist" to any names of your choice.
 6. Click on "Save to Spotify" to save your playlist to your Spotify account.
+
+
+
 
 ## Technologies used for Jammming
 
