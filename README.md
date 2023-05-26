@@ -6,6 +6,8 @@ The above mentioned features are possible thanks to the connection with Spotify 
 If you want to see the app in action, here is a deployed app with Netlify: https://tourmaline-crumble-d24e10.netlify.app/
 You can also visit my Portfolio website to learn more about my projects: https://jessieinit.com/
 
+![Jammming, search and create music playlist on Spotify](/public/Jamming_Image.png)
+
 ## Motivation of the project
 
 I am currently learning HTML, CSS, JavaScript, and React to become a front-end developer. Through this project, I attempted to learn the following:
