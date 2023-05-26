@@ -1,4 +1,4 @@
-### About Jammming
+# About Jammming
 
 Jammming is a React app where users can log into their Spotify account, search music, create a playlist, and save it on their Spotify account.\
 The above mentioned features are possible thanks to the connection with Spotify API.\
@@ -34,14 +34,24 @@ Here is the description of how Jammming works:
 2. If you are not logged into your Spotify account, you will be directed to a Spotify log-in page. Log into Spotify.
 3. After logging in, you will be redirected back to the Jammming page. Search songs again.
 4. 20 songs will be shown under "Results". If you have songs that you would like to add to your playlist, click on plus icons. The added songs will be displayed in the panel named "My Playlist".
-5. Change "My Playlist" to any names of your choice.
-6. Click on "Save to Spotify" to save your playlist to your Spotify account.
-
-
-
+5. If you change your mind and want to remove certain songs, click on the minus buttons.
+6. You can change the default playlist name, "My Playlist", to any names of your choice.
+7. Click on "Save to Spotify" to save your playlist to your Spotify account.
 
 ## Technologies used for Jammming
 
+Jammming uses many technologies for it to work:
+
+* React with function components
+* useState() React hook
+* Fetch API with GET and POST requests
+* Spotify API
+* Dealing with Restful API and Json data
+* Hiding API token in an environmental variable
+* Deployment with Netlify
+
 ## Special thanks to Codecademy
+
+This project was possible thanks to the guidance provided by Codecademy course
 
 ## How to install and run Jammming
