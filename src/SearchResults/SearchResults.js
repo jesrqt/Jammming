@@ -9,7 +9,6 @@ export const SearchResults = (props) => {
       <TrackList 
       tracks={props.searchResults} 
       onAdd={props.onAdd}
-      onRemove={props.onRemove}
       isRemoval={false} />
     </div>
   )

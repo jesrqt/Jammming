@@ -12,6 +12,7 @@ export const Playlist = (props) => {
     <div className="Playlist">
       <input
         defaultValue={"New Playlist"}
+        value={props.playlistName}
         onChange={handleNameChange} />
       <TrackList
         tracks={props.playlistTracks}
